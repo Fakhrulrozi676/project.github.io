@@ -1,0 +1,165 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+.header {
+    background-image:url(https://th.bing.com/th/id/OIP.v93cHR7ws2poGpx0CNA2CAHaFj?w=227&h=180&c=7&r=0&o=5&pid=1.7);
+    background-size: 100%;
+    height: 40%;
+    width: 100%;
+    top: 0%;
+}
+img {
+    width: 200px;
+    height: 200px;
+    display: inline;
+}
+h1 {
+    text-align: center;
+    color:blue;
+    display: inline;
+    position: absolute;
+    padding-left: 200px;
+    
+}
+.menu {
+    background-color: rgb(101, 253, 122);
+    margin-top: 0px;
+    height: 30px;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 0px;
+    display: block;
+    position: absolute;
+}
+.list {
+    position: relative;
+    margin-top: 0px;
+}
+.list li {
+    position: relative;
+    float: left;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+.list li a {
+    display:block;
+    padding-left: 4px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    padding-right: 4px;
+  
+}
+.list li a:hover {
+    background-color: aqua;
+    height: 30px;
+    border: 2px solid black;
+
+    
+}
+.list .dropdown {
+    position: absolute;
+    display: none;
+    padding-left: 0px;
+    width: 10px;
+    padding-top: 0px;
+    margin: 0;
+    
+}
+.list li .dropdown li {
+    display: block;
+    padding-left: 0px;
+    padding-top: 5px;
+    width: 70px;
+    margin: 0;
+}
+.list li .dropdown a{
+    float:left;
+    margin-left: 0px;
+    width: 70px;
+    height: 20px;
+    padding-top: 0%;
+    padding-left: 1px;
+    margin-top: 0;
+    background-color: rgb(255, 255, 255);
+}
+.list li:hover .dropdown {
+    display: block;
+    padding-top: 10px;
+    position: relative;
+}
+.list li:hover ul ul {
+    display: none;
+}
+.list .dropdown1 {
+    position: absolute;
+    display: none;
+    padding-left: 0px;
+    width: 10px;
+    padding-top: 0px;
+    margin: 0;
+    
+}
+.list li .dropdown1 li {
+    display: block;
+    padding-left: 0px;
+    padding-top: 5px;
+    width: 100px;
+    margin: 0;
+}
+.list li .dropdown1 a{
+    float:left;
+    margin-left: 0px;
+    width: 100px;
+    height: 20px;
+    padding-top: 0%;
+    padding-left: 1px;
+    margin-top: 0;
+    background-color: rgb(254, 254, 255);
+}
+.list li:hover .dropdown1 {
+    display: block;
+    padding-top: 10px;
+    position: relative;
+  
+}
+.content {
+    background-color:rgb(253, 253, 252);
+    height: 700px;
+    width: 100%;
+    left: 0;
+    margin-top: 45px;
+    position: static;
+    overflow: hidden;
+}    
+.content h1 {
+    text-align: center;
+    color: black;
+    padding-left: 0px;
+    margin-left: 500px;  
+}
+.content p {
+    margin-top: 70px;
+    padding-left: 450px;
+}
+.swiper {
+    height: 400px;
+    width: 50%;
+}
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    background-color: black;
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+}
+.footer p {
+    color: white;
+    text-align: center;
+}
+
