@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Company Profile</title>
+        <link rel="stylesheet" href="Homepage.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    </head>
+    <body>
+        <div class="header">
+            <img src="logo nap trans.png" alt="">
+            <h1>PT. NAGA ANGKASA PERKASA</h1>
+            </div>
+                <div class="menu">
+                <ul class="list">
+                    <li><a href="#"><strong>Home</strong></a></li>
+                    <li><a href="#"><strong>Profile</strong></a>
+                        <ul class="dropdown">
+                            <li><a href="#">Profile</a></li>
+                            <li><a href="#">History</a></li>
+                            <li><a href="#">Progress</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><strong>Departement</strong></a>
+                        <ul class="dropdown1">
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Marketing</a></li>
+                            <li><a href="#">Purchasing</a></li>
+                            <li><a href="#">Warehouse</a></li>
+                            <li><a href="#">PPIC</a></li>
+                            <li><a href="#">Production</a></li>
+                            <li><a href="#">Finish Goods</a></li>
+                            <li><a href="#">Export/Import</a></li>
+                            <li><a href="#">Accounting</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><strong>Carieer</strong></a></li>
+                </ul>
+            </div>
+        <div class="content">
+            <h1>Selamat Datang</h1>
+            <p>Kita adalah perusahaan yang bergerak di bidang footwear</p>
+            <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="sandal.png" alt=""></div>
+      <div class="swiper-slide"><img src="IMG_3077.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="IMG_3081.jpg" alt=""></div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+        </div>
+        <div class="footer">
+           <p>Copyright &copy; by Fakhrul Rozi</p>
+        </div>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            
+
+            loop: true,
+
+            
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+            });
+    </script>
+</html>
